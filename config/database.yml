@@ -79,7 +79,7 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: rails_crud_cities_production
-  username: rails_crud_cities
-  password: <%= ENV['RAILS_CRUD_CITIES_DATABASE_PASSWORD'] %>
+#  <<: *default
+#  database: rails_crud_cities_production
+#  username: rails_crud_cities
+ # password: <%= ENV['RAILS_CRUD_CITIES_DATABASE_PASSWORD'] %>
